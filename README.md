@@ -1,9 +1,7 @@
-# Creating the README.md file with the provided content
+# Python Automatic Data Scrapper
 
-readme_content = """
-# 🚀 Data Scraper Script
 
-This is a **Python script** designed to scrape **over 100,000 data entries continuously**. It utilizes **Selenium** for browser automation.
+This is a **Python script** designed to scrape **over 100,000 data entries continuously**. It utilizes **Selenium** for browser automation. Its built to scrape data from a website.
 
 ---
 
@@ -11,6 +9,7 @@ This is a **Python script** designed to scrape **over 100,000 data entries conti
 - Scrapes large datasets efficiently.
 - Logs the scraping process.
 - Easily customizable for different targets.
+- main.py is for slow data scrapping and main2.py is faster that main.py
 
 ---
 
@@ -27,4 +26,9 @@ This is a **Python script** designed to scrape **over 100,000 data entries conti
 1. **Clone the Repository**
 ```bash
 git clone https://github.com/yourusername/repo-name.git
-cd repo-name
+cd Python-Scrapper
+pip install -r requirements.txt
+python main.py
+
+
+
